@@ -1,0 +1,148 @@
+.quizzes-section {
+	padding: 5% !important;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.quiz-btn-section {
+	margin-bottom: 2% !important;
+}
+
+.join-quiz-btn {
+	background-color: green !important;
+	color: white !important;
+
+	font-weight: bold !important;
+	letter-spacing: 1px !important;
+}
+
+.create-quiz-btn {
+	background-color: red !important;
+	margin-left: 2% !important;
+	color: white !important;
+	font-weight: bold !important;
+}
+
+@media screen and (max-width: 500px) {
+	.join-quiz-btn {
+		font-size: 0.7rem !important;
+	}
+}
+
+.up-quizzes {
+	color: #2980b9 !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: bold !important;
+	border-bottom: 3px solid #35a1e9;
+
+	margin-bottom: 5% !important;
+}
+
+.root1 {
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.grid-list {
+	flex-wrap: nowrap;
+    transform: translateZ(0);
+}
+
+.MuiGridListTileBar-title {
+	font-family: "Montserrat", sans-serif !important;
+	font-weight: bold !important;
+}
+
+.inline {
+	white-space: nowrap !important;
+}
+
+.enrolled-list {
+	margin-bottom: 5% !important;
+}
+
+.quiz-code-field {
+	margin-top: 5% !important;
+}
+
+.join-sub {
+	font-weight: normal !important;
+	font-family: "Montserrat", sans-serif !important;
+	font-size: 1rem !important;
+}
+
+.join-modal-btn {
+	margin-top: 5% !important;
+}
+
+@media screen and (max-width: 520px) {
+	.join-sub {
+		font-size: 0.8rem !important;
+	}
+
+	.info-param {
+		font-size: 0.8rem !important;
+	}
+
+}
+
+.btn-set .MuiIconButton-root {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+
+}
+
+.enroll-icon {
+	color: white !important;
+}
+
+.m-top {
+	margin-top: 5% !important;
+}
+
+.unenroll-btn {
+	background-color: red !important;
+	color: white !important;
+	font-weight: bold !important;
+
+	margin-top: 3% !important;
+}
+
+.no-p-top {
+	padding-top: 0 !important;
+}
+
+.time-sec {
+	text-align: center !important;
+}
+
+.time-rem {
+	font-size: 1.2rem !important;
+	font-weight: bolder !important;
+	color: #2980b9 !important;
+	font-family: 'Courier New', Courier, monospace !important;
+}
+
+@media screen and (max-width: 900px) {
+	.time-rem {
+		font-size: 0.8rem !important;
+	}
+}
+@media screen and (max-width: 580px) {
+	.time-rem {
+		font-size: 0.65rem !important;
+	}
+}
+
+.m-top2 {
+	margin-top: 7% !important;
+}
+
+.start-div .logout-btn {
+	margin-bottom: 0 !important;
+}
+.start-div .cancel-btn {
+	margin-bottom: 0 !important;
+}
